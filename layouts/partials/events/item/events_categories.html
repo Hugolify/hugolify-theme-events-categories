@@ -1,0 +1,5 @@
+{{ with .GetTerms "events_categories" }}
+  {{ range . }}
+    <span class="category" itemprop="category">{{ partial "func/PrepareHTML" .Title }}</span>
+  {{ end }}
+{{ end }}

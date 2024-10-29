@@ -1,0 +1,24 @@
+module:
+  mounts:
+    - source: archetypes
+      target: archetypes
+    - source: assets
+      target: assets
+    - source: content
+      target: content
+    - source: i18n
+      target: i18n
+    - source: layouts
+      target: layouts
+
+# Default
+permalinks:
+  events_categories: /events/categories/:slug/
+taxonomies:
+  events_category: events_categories
+
+params:
+  admin:
+    collections:
+      events_categories:
+        enable: true

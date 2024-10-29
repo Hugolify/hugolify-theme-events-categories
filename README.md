@@ -1,1 +1,1 @@
-# hugolify-events-categories
+# hugolify-theme-events-categories

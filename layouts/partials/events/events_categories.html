@@ -1,0 +1,7 @@
+{{ with .GetTerms "events_categories" }}
+  <p class="categories">
+    {{ range . }}
+      <a href="{{ .Permalink }}">{{ partial "func/PrepareHTML" .Title }}</a>
+    {{ end }}
+  </p>
+{{ end }}

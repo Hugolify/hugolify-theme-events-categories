@@ -1,0 +1,8 @@
+events_categories:
+  all: Toutes les catégories évènements
+  discover: Découvrir la catégorie
+  latest: Dernières catégories évènements
+  more: Découvrir plus de catégories évènements
+  title:
+    one: Catégorie
+    other: Catégories

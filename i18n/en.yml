@@ -1,0 +1,8 @@
+events_categories:
+  all: All events categories
+  discover: Discover category
+  latest: Latest events categories
+  more: Discover more events categories
+  title:
+    one: Category
+    other: Categories
