@@ -17,6 +17,7 @@ permalinks:
 taxonomies:
   events_category: events_categories
 
+# Params
 params:
   admin:
     collections:
