@@ -26,5 +26,8 @@ params:
     collections:
       events_categories:
         enable: true
+        filter:
+          - field: isIndex
+            value: false
         icon:
           sveltiacms: bookmarks
