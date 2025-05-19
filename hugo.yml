@@ -13,7 +13,10 @@ module:
 
 # Default
 permalinks:
-  events_categories: /events/categories/:slug/
+  taxonomy:
+    events_categories: /events/categories/
+  term:
+    events_categories: /events/categories/:slug/
 taxonomies:
   events_category: events_categories
 
@@ -23,3 +26,5 @@ params:
     collections:
       events_categories:
         enable: true
+        icon:
+          sveltiacms: bookmarks
