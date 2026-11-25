@@ -1,0 +1,12 @@
+/* css/modules/events-categories.css: hugolify-theme-events-categories entry point */
+
+/* Tokens */
+@import '../tokens/events-categories.css';
+
+/* Components */
+@import '../components/events-category.css';
+@import '../components/events-categories.css';
+
+/* Pages */
+@import '../pages/events-category.css';
+@import '../pages/events-categories.css';

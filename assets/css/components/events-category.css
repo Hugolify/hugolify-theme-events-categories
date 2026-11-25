@@ -1,0 +1,11 @@
+/* components/events-category.css */
+/*
+ * Usage: <article class="item events_category">
+ */
+@layer components {
+  .events_category {
+    .btn {
+      display: none;
+    }
+  }
+}

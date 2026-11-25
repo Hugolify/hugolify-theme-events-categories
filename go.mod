@@ -1,3 +1,3 @@
-module github.com/hugolify/hugolify-theme-events-categories
+module github.com/hugolify/hugolify-theme-events-categories/v2
 
 go 1.21
